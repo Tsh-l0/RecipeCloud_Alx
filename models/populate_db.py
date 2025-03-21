@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 import requests
-from models import db, Recipe, Ingredient, RecipeIngredient
+from models.create_db import db, Recipe, Ingredients
 from main import app
 
 
